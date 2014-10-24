@@ -172,8 +172,6 @@ static char* testEncodeDecode()
     char ibuf[4];
     char obuf[5];
     char rbuf[4];
-    char msg[100];
-    msg[0] = 0; // make msg an empty string
     unsigned int i,j,k;
     int d = 0;
     for (i = 0; i < 256; ++i) {
